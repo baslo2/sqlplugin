@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: sql-parser
+Bundle-SymbolicName: sqlParser
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: lib/antlr-runtime-4.11.1.jar,
+ .
+Automatic-Module-Name: home.sqlplugin.parser
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: home.sqlplugin.parser,
+ home.sqlplugin.parser.model
